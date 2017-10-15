@@ -4,7 +4,7 @@ import UIKit
 
 class MVPBaseViewController<Presenter: MVPBasePresenterInterface>: UIViewController {
     
-    weak var eventHandler: Presenter!
+    var eventHandler: Presenter!
     
     final override func viewDidLoad() {
         super.viewDidLoad()
